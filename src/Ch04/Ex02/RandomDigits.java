@@ -11,9 +11,9 @@ public class RandomDigits {
 
         System.out.println("x = " + x + ", b = " + y);
 
-        if(x > y) {
+        if (x > y) {
             System.out.println("x > y");
-        } else if(x < y) {
+        } else if (x < y) {
             System.out.println("x < y");
         } else {
             System.out.println("x = y");
@@ -21,7 +21,7 @@ public class RandomDigits {
     }
 
     public static void main(String[] args) {
-        for(int i = 0; i < 25; i++) {
+        for (int i = 0; i < 25; i++) {
             compareBand();
         }
     }
